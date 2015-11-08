@@ -1059,7 +1059,7 @@ trait Svg extends js.Object {
 
   def arc(): Arc = js.native
 
-  var line: js.Any = js.native
+  var line: Line = js.native
   var area: js.Any = js.native
 
   def brush(): Brush = js.native
