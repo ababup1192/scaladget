@@ -16,11 +16,11 @@
  */
 package fr.iscpif.scaladget.mapping
 
-import scala.scalajs.js
-import js.annotation._
-
 import org.scalajs.dom._
+
 import scala.Range
+import scala.scalajs.js
+import scala.scalajs.js.annotation._
 
 
 @js.native
@@ -1064,7 +1064,7 @@ trait Svg extends js.Object {
 
   def chord(): Chord = js.native
 
-  var diagonal: js.Any = js.native
+  var diagonal: Diagonal = js.native
   var symbolTypes: js.Array[String] = js.native
 }
 
