@@ -344,6 +344,8 @@ trait Selection extends Selectors {
 
   def data(): js.Array[_ <: Any] = js.native
 
+  def data(value: js.Any): UpdateSelection = js.native
+
   def data[A](values: js.Array[A]): UpdateSelection = js.native
 
   def data[A](values: js.Array[A], key: js.Function2[_ <: js.Any, Double, String]): UpdateSelection = js.native
